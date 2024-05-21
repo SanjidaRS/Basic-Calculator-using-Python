@@ -1,0 +1,13 @@
+#Basic Calculator Using Python
+first_number = input("Enter the first number: ")
+print("First number: " + first_number)
+second_number = input("Enter the second number: ")
+print("Second number: " + second_number)
+sum_add = float(first_number) + float(second_number)
+print("Addition: " + str(sum_add)) #Python does not know how to concatenate from a float to a string so need to write this
+sum_sub = float(first_number) - float(second_number)
+print("Subtraction: " + str(sum_sub))
+sum_mul = float(first_number) * float(second_number)
+print("Multiplication: " + str(sum_mul))
+sum_div = float(first_number) / float(second_number)
+print("Division: " + str(sum_div))
