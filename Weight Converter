@@ -1,0 +1,11 @@
+#Weight Converter Program
+weight = float(input("Weight: "))
+choice = input("(K)g or (L)bs:")
+if choice == "K" or choice == "k":
+  result = weight * 2.20
+  print(f"{weight}kgs is equal to {result} pounds")
+elif choice == "L" or choice == "l":
+  result = weight * 0.45
+  print(f"{weight} pounds is equal to {result}kgs")
+else:
+  print("Invalid choice.")
