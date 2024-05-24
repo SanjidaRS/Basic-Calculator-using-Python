@@ -11,4 +11,5 @@ Get in Touch
 LinkedIn: https://www.linkedin.com/in/sanjida-rahman-supti-25b25521b/
 
 Email: ssupti@uoguelph.ca
+
 Thanks for stopping by! Feel free to explore my repositories and connect with me on LinkedIn. Let's build something awesome together!
