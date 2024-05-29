@@ -1,0 +1,17 @@
+import time   #python library which deals everything about time
+
+def countdown(time_seconds):
+  while time_seconds:  
+    mins, secs = divmod(time_seconds, 60)      #format needed for time library
+    timer = '{:02d}:{:02d}'.format(mins, secs)  #format needed for time library
+    print(timer, end='\r')                     #format needed for time library
+    time.sleep(1)                              #format needed for time library
+    time_seconds -= 1                          #format needed for time library
+  print('Timer Completed!')
+ 
+def main():
+  time_seconds = int(input('Enter the time in seconds:'))
+  countdown(time_seconds)
+
+if __name__=="__main__":
+    main()
