@@ -1,0 +1,46 @@
+def main():
+    # A dictionary that stores questions and answers
+    quiz = {
+        'Question 1': {
+            'Q': 'What is the capital of France?',
+            'A': 'Paris'
+        },
+        'Question 2': {
+            'Q': 'What is the capital of Germany?',
+            'A': 'Berlin'
+        },
+        'Question 3': {
+            'Q': 'What is the capital of Italy?',
+            'A': 'Rome'
+        },
+        'Question 4': {
+            'Q': 'What is the capital of Bangladesh?',
+            'A': 'Dhaka'
+        },
+        'Question 5': {
+            'Q': 'What is the capital of Thailand?',
+            'A': 'Bangkok'
+        },
+        'Question 6': {
+            'Q': 'What is the capital of Malaysia?',
+            'A': 'Kuala Lumpur'
+        },
+    }
+
+    score = 0
+    for key, value in quiz.items():
+        print(value['Q'])
+        answer = input('Answer? ')
+        if answer.lower() == value['A'].lower():  # Converting both user input and correct answer to lowercase
+            print('Correct')
+            score += 1
+            print('Your score is ' + str(score))
+        else:
+            print('Wrong answer!!')
+            print('The correct answer is ' + value['A'])
+
+    print('Your final score is ' + str(score))  # Print final score after all questions have been answered
+
+
+if __name__ == "__main__":
+    main()
