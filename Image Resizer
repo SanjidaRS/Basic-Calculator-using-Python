@@ -1,0 +1,13 @@
+def main():
+  def resize_image(size1, size2):
+    from PIL import Image  #importing pillow
+    image = Image.open("C:/Users/ASUS/Documents/flipflap.jpg")
+    print(f'Current size: {image.size}')
+    resized_image = image.resize((size1, size2))
+    resized_image.save(f"C:/Users/ASUS/Documents/flipflap-{size1}.jpeg") 
+  size1 = int(input('Enter length: '))
+  size2 = int(input('Enter width: '))
+  resize_image(size1, size2)
+
+if __name__ == '__main__':
+  main()
