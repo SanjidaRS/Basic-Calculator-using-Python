@@ -1,15 +1,72 @@
-Welcome to My GitHub Profile!
+# Fundamental Python Projects Repository
 
-About Me:
+This repository contains a simple but functional Python script for performing fundamental calculations and games.
 
-Hello there! I am Sanjida Rahman Supti, a third-year Computer Science student at the University of Guelph with a minor in Mathematics along with a passion for cybersecurity and cloud computing. Currently, I am exploring various aspects of these fields and working on projects to sharpen my skills.
+## Table of Contents
 
-What I'm Learning
-Strengthening my programming skills in languages like C, HTML, CSS, Python, JavaScript
+- [Basic Calculator](#basic-calculator)
+- [Car Game](#car-game)
+- [Countdown Timer](#countdown-timer)
+- [Guessing Game](#guessing-game)
+- [Image Resizer](#image-resizer)
+- [Password Generator](#password-generator)
+- [QR Code](#qr-code)
+- [Quiz Game](#quiz-game)
+- [Rock Paper Scissors Game](#rock-paper-scissors-game)
+- [Weight Converter](#weight-converter)
 
-Get in Touch
-LinkedIn: https://www.linkedin.com/in/sanjida-rahman-supti-25b25521b/
+## Basic Calculator
 
-Email: ssupti@uoguelph.ca
+A simple calculator to perform basic arithmetic operations.
 
-Thanks for stopping by! Feel free to explore my repositories and connect with me on LinkedIn. Let's build something awesome together!
+## Car Game
+
+A basic car game developed using Python.
+
+## Countdown Timer
+
+A countdown timer application.
+
+## Guessing Game
+
+A game where the player has to guess a number.
+
+## Image Resizer
+
+A script to resize images.
+
+## Password Generator
+
+A tool to generate random passwords.
+
+## QR Code
+
+A script to generate QR codes.
+
+## Quiz Game
+
+A basic quiz game.
+
+## Rock Paper Scissors Game
+
+A simple rock-paper-scissors game.
+
+## Weight Converter
+
+A script to convert weights between different units.
+
+## How to Use
+
+1. **Clone the Repository:**
+   ```sh
+   git clone https://github.com/yourusername/your-repo-name.git
+2. **Navigate to the Project Directory:**
+   cd your-repo-name
+3. **Run the Scripts:**
+python script_name.py
+
+## Contact
+For any questions or suggestions, please contact Sanjida Rahman Supti at ssupti@uoguelph.ca.
+
+## License
+This project is licensed under the MIT License.
